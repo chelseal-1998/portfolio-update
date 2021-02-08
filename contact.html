@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="contact.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="navbar">
+      <h1><a href="index.html">Contact Me</a></h1>
+
+      <div class="links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="testimonials.html">Testimonials</a>
+        <a href="projects.html">Projects</a>
+      </div>
+    </div>
+    <hr />
+
+    <div class="container">
+      <form id="contact" action="https://formspree.io/f/xqkgweyn" method="POST">
+        <h3>Contact Me!</h3>
+        <fieldset>
+          <input
+            placeholder="Your name"
+            type="text"
+            tabindex="1"
+            name="name"
+            required
+            autofocus
+          />
+        </fieldset>
+        <fieldset>
+          <input
+            placeholder="Your Email Address"
+            type="email"
+            tabindex="2"
+            name="email"
+            required
+          />
+        </fieldset>
+        <fieldset>
+          <input
+            placeholder="Your Phone Number (optional)"
+            type="tel"
+            tabindex="3"
+            name="phone number"
+            required
+          />
+        </fieldset>
+        <fieldset>
+          <textarea
+            placeholder="Type your message here...."
+            tabindex="5"
+            name="message"
+            required
+          ></textarea>
+        </fieldset>
+        <fieldset>
+          <button
+            name="submit"
+            type="submit"
+            id="contact-submit"
+            data-submit="...Sending"
+          >
+            Submit
+          </button>
+        </fieldset>
+      </form>
+    </div>
+
+    <div id="footer">
+      <div class="social">
+        <div class="box" id="linkedin">
+          <a href="https://www.linkedin.com/in/chelsea-laguma/" target="_blank"
+            ><i class="fa fa-linkedin"></i
+          ></a>
+        </div>
+        <div class="box" id="behance">
+          <a href="https://github.com/chelseal-1998" target="_blank"
+            ><i class="fa fa-github"></i
+          ></a>
+        </div>
+        <div class="box" id="codepen">
+          <a href="contact.html" target="_blank"
+            ><i class="fa fa-envelope"></i
+          ></a>
+        </div>
+      </div>
+      <p>&copy;2021 Chelsea A.Laguma</p>
+    </div>
+  </body>
+</html>

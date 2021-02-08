@@ -1,0 +1,271 @@
+h1 a {
+  color: rgb(255, 187, 0);
+  text-align: center;
+  margin-top: 20px;
+  text-decoration: none;
+  width: 100%;
+  display: block;
+  transition: all 0.3s linear;
+}
+
+h1:hover a {
+  color: white;
+}
+
+body {
+  background-color: teal;
+}
+
+p {
+  color: white;
+  padding-top: 20px;
+  text-align: left;
+}
+
+.bio {
+  text-align: center;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.about {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+
+  margin-left: 100px;
+  margin-top: 90px;
+}
+
+ul li {
+  color: gray;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+h2 {
+  color: rgb(255, 187, 0);
+  text-align: left;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  background-color: #ddd;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.html {
+  width: 40%;
+  background-color: teal;
+  border-radius: 50px;
+}
+.css {
+  width: 40%;
+  background-color: teal;
+  border-radius: 50px;
+}
+.js {
+  width: 40%;
+  background-color: teal;
+  border-radius: 50px;
+}
+.php {
+  width: 40%;
+  background-color: teal;
+  border-radius: 50px;
+}
+
+.txt-type {
+  font-size: 40px;
+  color: teal;
+  margin-left: 400px;
+}
+
+.footer {
+  position: fixed;
+  text-align: center;
+  bottom: 0px;
+  width: 100%;
+  background-color: teal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.words p {
+  text-align: left;
+  font-size: 18px;
+  margin-left: 45px;
+}
+.d-flex {
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 65px;
+}
+h2.mb-4 {
+  font-size: 40px;
+  margin-left: 450px;
+  text-align: left;
+}
+
+h2 {
+  font-size: 20px;
+  text-align: left;
+  margin-top: 50px;
+  margin-left: 135px;
+}
+.wrapper {
+  box-shadow: 0 0 20px 0 white;
+  margin-left: 100px;
+  padding-bottom: 10px;
+  margin-top: 20px;
+}
+
+.btnbtn-primarypy-3px-3 {
+  color: rgb(255, 187, 0);
+  text-decoration: none;
+  box-sizing: border-box;
+  border: 3px solid;
+  margin-left: 475px;
+  font-size: 18px;
+  background-color: teal;
+  border-radius: 50px;
+  margin-bottom: 50px;
+  padding: 10px;
+}
+.btnbtn-primarypy-3px-3:hover {
+  background-color: black;
+  color: white;
+}
+
+h4 {
+  text-align: left;
+  font-size: 20px;
+  color: rgb(255, 187, 0);
+  margin-left: 135px;
+}
+span1 {
+  color: white;
+  text-align: left;
+}
+
+* {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.about-info {
+  margin: 50px;
+}
+
+#footer {
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  background-color: teal;
+  display: inline-block;
+  margin: auto;
+  text-align: center;
+}
+#footer p {
+  font-family: Tahoma, Geneva, sans-serif;
+  padding-top: 40px;
+  color: white;
+  text-align: center;
+}
+
+/* SOCIAL MEDIA _________________________________________*/
+
+.box {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin: 0 10px;
+  line-height: 52px;
+  font-size: 30px;
+  text-align: center;
+  color: teal;
+  border-radius: 5px;
+  background: #dfdfdf;
+  overflow: hidden;
+  transition: 0.3s;
+}
+.box:hover {
+  transition: 0.3s;
+  color: white;
+}
+#facebook:hover {
+  background-color: rgb(255, 187, 0);
+}
+#facebook a {
+  color: gray;
+}
+
+#linkedin:hover {
+  background-color: rgb(255, 187, 0);
+}
+#linkedin a {
+  color: gray;
+}
+
+#behance:hover {
+  background-color: rgb(255, 187, 0);
+}
+#behance a {
+  color: gray;
+}
+
+#codepen:hover {
+  background-color: rgb(255, 187, 0);
+}
+
+#codepen a {
+  color: gray;
+}
+
+.navbar {
+  background-color: teal;
+  top: 0;
+}
+
+.links {
+  font-size: 16px;
+  color: white;
+  text-transform: uppercase;
+  scale: 1.1;
+  display: flex;
+  justify-content: center;
+}
+
+.links a {
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+  float: right;
+  scale: 1.1;
+  transition: all 0.3s linear;
+}
+
+.links a:hover {
+  color: rgb(255, 187, 0);
+}
+
+hr {
+  width: 100%;
+  color: white;
+}
